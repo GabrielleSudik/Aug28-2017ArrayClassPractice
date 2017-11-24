@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HtmlAgilityPack;
 
 namespace Aug28_2017ArrayClassPractice
 {
@@ -133,6 +134,22 @@ namespace Aug28_2017ArrayClassPractice
             Console.WriteLine(favorites[favorites.Length -1]);
 
             Console.ReadLine();
+
+            //note: you're tinkering a bit here on Nov 23-2017
+            //because you're learning stuff about GitHub in VS.
+            //you added HtmlAgilityPack (nuget, then "using")
+
+            //so what am I doing below?
+
+            var doc = new HtmlDocument();
+            //doc.Load [something wrong]
+
+            //well... nothing lol. But what SHOULD be happening is...
+            //the Load method, which is supplied by the new library
+            //is searching not just the installed libraries, but the internet
+            //for other people who've written a method called Load!
+            //intellisense was supposed to find me examples to use, but it didn't for some reason
+            //still, good to know this is a thing.
         }
     }
 }
