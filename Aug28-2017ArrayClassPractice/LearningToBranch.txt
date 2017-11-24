@@ -1,0 +1,4 @@
+﻿You added this text file on 11-23-17, 
+while learning to use GitHub from within
+Visual Studio. It's added so you can
+practicing adding material to branches.
